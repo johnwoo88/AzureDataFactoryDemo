@@ -1,0 +1,19 @@
+{
+	"name": "dataSet_outputFolder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService_adfdemo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.csv",
+				"folderPath": "output",
+				"container": "adfdemo"
+			}
+		}
+	}
+}
