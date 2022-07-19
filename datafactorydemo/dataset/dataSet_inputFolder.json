@@ -1,0 +1,19 @@
+{
+	"name": "dataSet_inputFolder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService_adfdemo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "datafactory - source file.csv",
+				"folderPath": "input",
+				"container": "adfdemo"
+			}
+		}
+	}
+}
